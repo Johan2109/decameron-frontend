@@ -43,7 +43,7 @@ function RoomForm({ hotelId, onRoomAdded, closeForm }) {
     } catch (error) {
       Swal.fire({
         title: "Error",
-        text: "Combinación no válida de tipo de habitación y alojamiento.",
+        text: "Combinación no válida de tipo de habitación, alojamiento o capacidad de habitaciones.",
         icon: "error",
         confirmButtonText: "Aceptar",
       });
