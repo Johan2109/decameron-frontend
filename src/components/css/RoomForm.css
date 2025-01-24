@@ -1,0 +1,101 @@
+/* Contenedor principal */
+/* Main Container */
+.room-form-container {
+  background-color: #ffffff;
+  /* Brighter Background */
+  padding: 24px;
+  /* Slightly Larger Padding */
+  border-radius: 12px;
+  /* Softer Corners */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08);
+  /* Softer Shadow */
+  margin: 24px 0;
+  /* Increased Margin */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  /* Modern Font */
+}
+
+/* Form Title */
+.room-form-container h3 {
+  text-align: center;
+  color: #222;
+  /* Darker Text */
+  margin-bottom: 24px;
+  /* Larger Space Below */
+}
+
+/* Error Messages */
+.error-message {
+  color: #d9534f;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 18px;
+  /* More Even Margin */
+}
+
+/* Form Styles */
+.room-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* Increased Gap */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  /* Modern Weight */
+  margin-bottom: 8px;
+  color: #333;
+  /* Enhanced Contrast */
+}
+
+/* Input and Select Styles */
+.form-group select,
+.form-group input {
+  padding: 12px;
+  /* Expanded Padding */
+  border: 1px solid #ccc;
+  /* Softer Border Color */
+  border-radius: 6px;
+  /* Slightly More Rounded */
+  font-size: 15px;
+  /* Larger Input Font */
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  /* Smoother Transition */
+}
+
+.form-group select:focus,
+.form-group input:focus {
+  outline: none;
+  border-color: #66afe9;
+  /* Subtle Focus Color */
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+  /* Larger Focus Shadow */
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #DE424A;
+  /* Fresh Green Color */
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  /* Increased Font Size */
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth Transition */
+}
+
+.submit-button:hover {
+  background-color: #F0889F;
+  /* Darker Hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  /* Elevated Hover Shadow */
+}
